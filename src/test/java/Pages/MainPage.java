@@ -12,12 +12,9 @@ public class MainPage {
     public MainPage(String url) {
         Selenide.open(url);
     }
-
-
-    public SearchPages search(String searchString){
+    public SearchPages search(String searchString) {
         textBoxInput.setValue(searchString);
         textBoxInput.sendKeys(Keys.ENTER);
         return new SearchPages();
     }
-
 }
