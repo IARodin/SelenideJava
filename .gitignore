@@ -36,3 +36,11 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/allure-results/823f45cc-e1b8-4dd6-8a05-cbbc838e625a-container.json
+/allure-results/d94dca0b-3735-4ca7-8df3-8be42d325555-container.json
+
+# Allure results
+allure-results/
+/allure-results/033951c1-ddce-4c26-9c20-267dc234ffce-container.json
+/allure-results/bd24461b-a78d-424c-b273-e96b9f60c238-container.json
+/allure-results/ca13fc45-4978-4822-a294-da70507042ca-result.json

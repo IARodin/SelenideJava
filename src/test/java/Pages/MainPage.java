@@ -13,7 +13,7 @@ public class MainPage {
         Selenide.open(url);
     }
     public SearchPages search(String searchString) {
-        textBoxInput.setValue(searchString);
+        textBoxInput.val(searchString);
         textBoxInput.sendKeys(Keys.ENTER);
         return new SearchPages();
     }

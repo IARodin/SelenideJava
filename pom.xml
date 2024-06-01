@@ -16,6 +16,7 @@
         <junit.version>5.9.3</junit.version>
         <aspectj.version>1.9.19</aspectj.version>
         <allure.version>2.22.0</allure.version>
+        <selenide.version>7.3.2</selenide.version>
     </properties>
 
     <dependencies>
@@ -28,8 +29,7 @@
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>6.13.1</version>
-            <scope>test</scope>
+            <version>${selenide.version}</version>
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
